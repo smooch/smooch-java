@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da6dc105-5b63-4a4a-8db0-73efd1c1934e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/IntegrationApi.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IntegrationApi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/ApiCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/ApiCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/ApiException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/ApiException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/GzipRequestInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/GzipRequestInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/JSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/JSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/ProgressRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/ProgressRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/ProgressResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/ProgressResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/AppApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/AppApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/AppUserApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/AppUserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/AttachmentsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/AttachmentsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/ConversationApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/ConversationApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/IntegrationApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/IntegrationApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/MenuApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/MenuApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/ServiceAccountApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/ServiceAccountApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/TemplateApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/TemplateApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/WebhookApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/api/WebhookApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/ApiKeyAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/ApiKeyAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/Authentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/HttpBasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/HttpBasicAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/OAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/OAuth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/OAuthFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/auth/OAuthFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserBusinessSystemsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserBusinessSystemsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserChannelsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserChannelsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserPreCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserPreCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AppUserUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AttachmentRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AttachmentRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AttachmentResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AttachmentResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AuthCodeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/AuthCodeResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/BusinessSystemItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/BusinessSystemItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ChannelEntityItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ChannelEntityItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ClientInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ClientInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Confirmation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Confirmation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Conversation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Conversation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ConversationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ConversationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Destination.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Destination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/DisplaySettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/DisplaySettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/GetMessagesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/GetMessagesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Integration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Integration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/IntegrationCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/IntegrationCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/IntegrationProfileUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/IntegrationProfileUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/IntegrationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/IntegrationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/IntegrationUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/IntegrationUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/LinkRequestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/LinkRequestResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/LinkRequestResponseLinkRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/LinkRequestResponseLinkRequests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListAppsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListAppsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListIntegrationsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListIntegrationsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListSecretKeysResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListSecretKeysResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListServiceAccountsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListServiceAccountsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListTemplatesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListTemplatesResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListWebhooksResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ListWebhooksResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MenuResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MenuResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessageItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessageItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessageOverride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessageOverride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessageOverrideWhatsapp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessageOverrideWhatsapp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessagePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessagePost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/MessageResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/SecretKey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/SecretKey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/SecretKeyCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/SecretKeyCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/SecretKeyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/SecretKeyResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ServiceAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ServiceAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ServiceAccountCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ServiceAccountCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ServiceAccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ServiceAccountResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ServiceAccountUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/ServiceAccountUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Source.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Source.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/SubMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/SubMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/TemplateCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/TemplateCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/TemplateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/TemplateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/TemplateUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/TemplateUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Webhook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/Webhook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/WebhookCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/WebhookCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/WebhookResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/WebhookResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/WebhookUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/smooch/client/model/WebhookUpdate.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/smooch/client/TestApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/IntegrationApi.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5850">
+              <caret line="390" selection-start-line="380" selection-end-line="390" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getIntegrationProfile</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/io/smooch/client/TestApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1987" />
+    <option name="y" value="27" />
+    <option name="width" value="1247" />
+    <option name="height" value="1413" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swagger-java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swagger-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swagger-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swagger-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swagger-java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551734680461" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.smooch.client.TestApplication" />
+      <module name="api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.smooch.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da6dc105-5b63-4a4a-8db0-73efd1c1934e" name="Default Changelist" comment="" />
+      <created>1551729927698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551729927698</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1987" y="27" width="2493" height="1413" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14425828" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32654658" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39937353" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/smooch/client/JSON.java</url>
+          <line>102</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ClassLoader.getSystemResource(&quot;/&quot;)" language="JAVA" />
+        <watch expression="TestApplication.class.getResource(&quot;file.txt&quot;);" language="JAVA" />
+        <watch expression="TestApplication.class.getResource(&quot;java/io/smooch/client/file.txt&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>TestApplication.class.getResource(&quot;java/io/smooch/client/file.txt&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestApplication.class.getResource(&quot;io/smooch/client/file.txt&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestApplication.class.getResource(&quot;java/io.smooch.client/file.txt&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestApplication.class.getResource(&quot;io.smooch.client/file.txt&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestApplication.class.getResource(&quot;./file.txt&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestApplication.class.getResource(&quot;/file.txt&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>TestApplication.class.getResource(&quot;file.txt&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClassLoader.getSystemResource(&quot;/&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ClassLoader.getSystemResource();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/smooch/client/ApiClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12945">
+          <caret line="971" selection-start-line="971" selection-end-line="971" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/smooch/client/api/IntegrationApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24555">
+          <caret line="1684" selection-start-line="1684" selection-end-line="1684" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/ClassLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6840">
+          <caret line="456" column="31" selection-start-line="456" selection-start-column="31" selection-end-line="456" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/io/File.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/smooch/client/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/smooch/client/model/UpdateIntegrationProfilePhotoResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="e#1239#1240#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1824#1825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/smooch/client/TestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/IntegrationApi.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5850">
+          <caret line="390" selection-start-line="380" selection-end-line="390" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
