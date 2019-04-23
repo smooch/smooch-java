@@ -44,10 +44,10 @@ public class BusinessSystemItem {
   }
 
    /**
-   * The type of business system. See Enums.md for available values.
+   * The type of business system. See [**BusinessSystemTypeEnum**](Enums.md#BusinessSystemTypeEnum) for available values.
    * @return type
   **/
-  @ApiModelProperty(required = true, value = "The type of business system. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The type of business system. See [**BusinessSystemTypeEnum**](Enums.md#BusinessSystemTypeEnum) for available values.")
   public String getType() {
     return type;
   }

@@ -65,10 +65,10 @@ public class Action {
   }
 
    /**
-   * The action type. See Enums.md for available values.
+   * The action type. See [**ActionTypeEnum**](Enums.md#ActionTypeEnum) for available values.
    * @return type
   **/
-  @ApiModelProperty(required = true, value = "The action type. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The action type. See [**ActionTypeEnum**](Enums.md#ActionTypeEnum) for available values.")
   public String getType() {
     return type;
   }
@@ -245,10 +245,10 @@ public class Action {
   }
 
    /**
-   * The size used to display the webview. Allowed values are [\"compact\", \"tall\", \"full\"]. (Optional) Used for *webview* actions. See Enums.md for available values. 
+   * The size used to display the webview. Allowed values are [\"compact\", \"tall\", \"full\"]. (Optional) Used for *webview* actions. See [**ActionSizeEnum**](Enums.md#ActionSizeEnum) for available values. 
    * @return size
   **/
-  @ApiModelProperty(value = "The size used to display the webview. Allowed values are [\"compact\", \"tall\", \"full\"]. (Optional) Used for *webview* actions. See Enums.md for available values. ")
+  @ApiModelProperty(value = "The size used to display the webview. Allowed values are [\"compact\", \"tall\", \"full\"]. (Optional) Used for *webview* actions. See [**ActionSizeEnum**](Enums.md#ActionSizeEnum) for available values. ")
   public String getSize() {
     return size;
   }

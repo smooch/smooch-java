@@ -77,10 +77,10 @@ public class Deployment {
   }
 
    /**
-   * The deployment status. See Enums.md for available values.
+   * The deployment status. See [**DeploymentStatusEnum**](Enums.md#DeploymentStatusEnum) for available values.
    * @return status
   **/
-  @ApiModelProperty(required = true, value = "The deployment status. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The deployment status. See [**DeploymentStatusEnum**](Enums.md#DeploymentStatusEnum) for available values.")
   public String getStatus() {
     return status;
   }
@@ -95,10 +95,10 @@ public class Deployment {
   }
 
    /**
-   * The deployment hosting. See Enums.md for available values.
+   * The deployment hosting. See [**DeploymentHostingEnum**](Enums.md#DeploymentHostingEnum) for available values.
    * @return hosting
   **/
-  @ApiModelProperty(required = true, value = "The deployment hosting. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The deployment hosting. See [**DeploymentHostingEnum**](Enums.md#DeploymentHostingEnum) for available values.")
   public String getHosting() {
     return hosting;
   }

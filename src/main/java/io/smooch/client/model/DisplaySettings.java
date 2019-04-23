@@ -32,10 +32,10 @@ public class DisplaySettings {
   }
 
    /**
-   * Specifies how to display all carousel images. See Enums.md for available values.
+   * Specifies how to display all carousel images. See [**ImageAspectRatioEnum**](Enums.md#ImageAspectRatioEnum) for available values.
    * @return imageAspectRatio
   **/
-  @ApiModelProperty(value = "Specifies how to display all carousel images. See Enums.md for available values.")
+  @ApiModelProperty(value = "Specifies how to display all carousel images. See [**ImageAspectRatioEnum**](Enums.md#ImageAspectRatioEnum) for available values.")
   public String getImageAspectRatio() {
     return imageAspectRatio;
   }

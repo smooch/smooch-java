@@ -63,10 +63,10 @@ public class WebhookUpdate {
   }
 
    /**
-   * An array of triggers you wish to have the webhook listen to. See Enums.md for available values.
+   * An array of triggers you wish to have the webhook listen to. See [**WebhookTriggersEnum**](Enums.md#WebhookTriggersEnum) for available values.
    * @return triggers
   **/
-  @ApiModelProperty(value = "An array of triggers you wish to have the webhook listen to. See Enums.md for available values.")
+  @ApiModelProperty(value = "An array of triggers you wish to have the webhook listen to. See [**WebhookTriggersEnum**](Enums.md#WebhookTriggersEnum) for available values.")
   public List<String> getTriggers() {
     return triggers;
   }

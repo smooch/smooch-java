@@ -59,10 +59,10 @@ public class LinkRequestResponseLinkRequests {
   }
 
    /**
-   * The integration type. See Enums.md for available values.
+   * The integration type. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.
    * @return type
   **/
-  @ApiModelProperty(required = true, value = "The integration type. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The integration type. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.")
   public String getType() {
     return type;
   }

@@ -44,10 +44,10 @@ public class DeploymentCreate {
   }
 
    /**
-   * The deployment hosting. See Enums.md for available values.
+   * The deployment hosting. See [**DeploymentHostingEnum**](Enums.md#DeploymentHostingEnum) for available values.
    * @return hosting
   **/
-  @ApiModelProperty(required = true, value = "The deployment hosting. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The deployment hosting. See [**DeploymentHostingEnum**](Enums.md#DeploymentHostingEnum) for available values.")
   public String getHosting() {
     return hosting;
   }

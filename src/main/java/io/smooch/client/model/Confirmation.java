@@ -36,10 +36,10 @@ public class Confirmation {
   }
 
    /**
-   * The confirmation type. See Enums.md for available values.
+   * The confirmation type. See [**ConfirmationTypeEnum**](Enums.md#ConfirmationTypeEnum) for available values.
    * @return type
   **/
-  @ApiModelProperty(required = true, value = "The confirmation type. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The confirmation type. See [**ConfirmationTypeEnum**](Enums.md#ConfirmationTypeEnum) for available values.")
   public String getType() {
     return type;
   }

@@ -5,8 +5,8 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **String** | The deployment ID, generated automatically. | 
-**status** | **String** | The deployment status. See Enums.md for available values. | 
-**hosting** | **String** | The deployment hosting. See Enums.md for available values. | 
+**status** | **String** | The deployment status. See [**DeploymentStatusEnum**](Enums.md#DeploymentStatusEnum) for available values. | 
+**hosting** | **String** | The deployment hosting. See [**DeploymentHostingEnum**](Enums.md#DeploymentHostingEnum) for available values. | 
 **baseUrl** | **String** | The baseUrl of the deployment. Only present for &#x60;self&#x60; hosted deployments. |  [optional]
 **username** | **String** | The username of the deployment. Only present for &#x60;self&#x60; hosted deployments. |  [optional]
 **phoneNumber** | **String** | The phoneNumber of the deployment. Only present once the deployment has been registered. |  [optional]

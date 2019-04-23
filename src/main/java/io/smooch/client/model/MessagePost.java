@@ -77,10 +77,10 @@ public class MessagePost {
   }
 
    /**
-   * The role of the individual posting the message. See Enums.md for available values.
+   * The role of the individual posting the message. See [**RoleEnum**](Enums.md#RoleEnum) for available values.
    * @return role
   **/
-  @ApiModelProperty(required = true, value = "The role of the individual posting the message. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The role of the individual posting the message. See [**RoleEnum**](Enums.md#RoleEnum) for available values.")
   public String getRole() {
     return role;
   }
@@ -95,10 +95,10 @@ public class MessagePost {
   }
 
    /**
-   * The message type. See Enums.md for available values.
+   * The message type. See [**MessageTypeEnum**](Enums.md#MessageTypeEnum) for available values.
    * @return type
   **/
-  @ApiModelProperty(required = true, value = "The message type. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The message type. See [**MessageTypeEnum**](Enums.md#MessageTypeEnum) for available values.")
   public String getType() {
     return type;
   }

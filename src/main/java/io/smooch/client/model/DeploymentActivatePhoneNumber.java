@@ -74,10 +74,10 @@ public class DeploymentActivatePhoneNumber {
   }
 
    /**
-   * The method desired to receive the activation code. See Enums.md for available values.
+   * The method desired to receive the activation code. See [**DeploymentActivationMethodEnum**](Enums.md#DeploymentActivationMethodEnum) for available values.
    * @return method
   **/
-  @ApiModelProperty(required = true, value = "The method desired to receive the activation code. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The method desired to receive the activation code. See [**DeploymentActivationMethodEnum**](Enums.md#DeploymentActivationMethodEnum) for available values.")
   public String getMethod() {
     return method;
   }

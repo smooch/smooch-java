@@ -229,10 +229,10 @@ public class Integration {
   }
 
    /**
-   * The integration type. See Enums.md for available values.
+   * The integration type. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.
    * @return type
   **/
-  @ApiModelProperty(required = true, value = "The integration type. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The integration type. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.")
   public String getType() {
     return type;
   }
@@ -1271,10 +1271,10 @@ public class Integration {
   }
 
    /**
-   * The integration status. See Enums.md for available values. [More info](https://docs.smooch.io/#integration-status).
+   * The integration status. See [**IntegrationStatusEnum**](Enums.md#IntegrationStatusEnum) for available values. [More info](https://docs.smooch.io/#integration-status).
    * @return status
   **/
-  @ApiModelProperty(value = "The integration status. See Enums.md for available values. [More info](https://docs.smooch.io/#integration-status).")
+  @ApiModelProperty(value = "The integration status. See [**IntegrationStatusEnum**](Enums.md#IntegrationStatusEnum) for available values. [More info](https://docs.smooch.io/#integration-status).")
   public String getStatus() {
     return status;
   }

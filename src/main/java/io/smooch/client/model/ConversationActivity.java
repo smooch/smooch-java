@@ -41,10 +41,10 @@ public class ConversationActivity {
   }
 
    /**
-   * The role of the actor. Must be *appMaker*. See Enums.md for available values.
+   * The role of the actor. Must be *appMaker*. See [**RoleEnum**](Enums.md#RoleEnum) for available values.
    * @return role
   **/
-  @ApiModelProperty(required = true, value = "The role of the actor. Must be *appMaker*. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The role of the actor. Must be *appMaker*. See [**RoleEnum**](Enums.md#RoleEnum) for available values.")
   public String getRole() {
     return role;
   }
@@ -59,10 +59,10 @@ public class ConversationActivity {
   }
 
    /**
-   * The type of activity to trigger. Must be either *typing:start* or *typing:stop*. See Enums.md for available values.
+   * The type of activity to trigger. Must be either *typing:start* or *typing:stop*. See [**MessageTypeEnum**](Enums.md#MessageTypeEnum) for available values.
    * @return type
   **/
-  @ApiModelProperty(required = true, value = "The type of activity to trigger. Must be either *typing:start* or *typing:stop*. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The type of activity to trigger. Must be either *typing:start* or *typing:stop*. See [**MessageTypeEnum**](Enums.md#MessageTypeEnum) for available values.")
   public String getType() {
     return type;
   }

@@ -114,10 +114,10 @@ public class Client {
   }
 
    /**
-   * The client's platform. See Enums.md for available values.
+   * The client's platform. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.
    * @return platform
   **/
-  @ApiModelProperty(required = true, value = "The client's platform. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The client's platform. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.")
   public String getPlatform() {
     return platform;
   }

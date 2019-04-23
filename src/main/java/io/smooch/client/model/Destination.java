@@ -53,10 +53,10 @@ public class Destination {
   }
 
    /**
-   * The type of the target integration. See Enums.md for available values.
+   * The type of the target integration. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.
    * @return integrationType
   **/
-  @ApiModelProperty(required = true, value = "The type of the target integration. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The type of the target integration. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.")
   public String getIntegrationType() {
     return integrationType;
   }

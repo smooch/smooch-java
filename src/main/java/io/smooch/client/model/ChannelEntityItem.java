@@ -50,10 +50,10 @@ public class ChannelEntityItem {
   }
 
    /**
-   * The type of channel. See Enums.md for available values.
+   * The type of channel. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.
    * @return type
   **/
-  @ApiModelProperty(required = true, value = "The type of channel. See Enums.md for available values.")
+  @ApiModelProperty(required = true, value = "The type of channel. See [**IntegrationTypeEnum**](Enums.md#IntegrationTypeEnum) for available values.")
   public String getType() {
     return type;
   }
